@@ -42,12 +42,12 @@ async function loadChannelContents() {
 
             container.innerHTML += `
                 <div class="project-block">
-                    <div class="img-style">
+                    <div class="img-style" class="project-img-wrapper">
                         <img src="${displayImg}">
                     </div>
-                    <div class="channels-text">
+                    <div class="channels-text" class="project-content-wrapper">
                         <h1>&emsp;${data.title}</h1>
-                        <p>&emsp;&emsp;${data.content.replace(/\n/g, '<br>&emsp;&emsp;')}</p>
+                        <p>${data.content.replace(/\n/g, '<br>&emsp;&emsp;')}</p>
                     </div>
                 </div>
             `;

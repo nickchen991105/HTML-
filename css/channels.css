@@ -13,6 +13,7 @@
 
 img {
     height: 350px; border-radius: 20px;
+    
 }
 
 .channels-text {
@@ -21,8 +22,14 @@ img {
 
 h1 {
     font-size: 100px; margin: 0 0 20px 0;
+    max-width: 100%;
+    width: 50%;
 }
 
 p {
     line-height: 1.8;
+    max-width: 650px;
+    transform: translate(60px, 10px);
+    width: 40%;
 }
+
