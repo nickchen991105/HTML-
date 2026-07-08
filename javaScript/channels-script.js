@@ -47,7 +47,7 @@ async function loadChannelContents() {
                     </div>
                     <div class="channels-text" class="project-content-wrapper">
                         <h1>&emsp;${data.title}</h1>
-                        <p>${data.content.replace(/\n/g, '<br>&emsp;&emsp;')}</p>
+                        <p class="text-wrapper">${data.content.replace(/\n/g, '<br>&emsp;&emsp;')}</p>
                     </div>
                 </div>
             `;

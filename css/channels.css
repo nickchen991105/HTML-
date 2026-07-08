@@ -26,7 +26,7 @@ h1 {
     width: 50%;
 }
 
-p {
+.text-wrapper {
     line-height: 1.8;
     max-width: 650px;
     transform: translate(60px, 10px);
