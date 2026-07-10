@@ -45,7 +45,7 @@ async function loadChannelContents() {
                     <div class="img-style" class="project-img-wrapper">
                         <img src="${displayImg}">
                     </div>
-                    <div class="channels-text" class="project-content-wrapper">
+                    <div class="channels-text project-content-wrapper">
                         <h1>&emsp;${data.title}</h1>
                         <p class="text-wrapper">${data.content.replace(/\n/g, '<br>&emsp;&emsp;')}</p>
                     </div>
