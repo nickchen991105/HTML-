@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'nick';
+    src: url(../font/jf-openhuninn-2.1.ttf) format('truetype');
+}
+
+
+
+.community-style {
+      background-color: rgba(182, 206, 221, 0.275);
+      border-radius: 30px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      
+}   
+
+
+.link-btn {
+    text-decoration: none;
+    font-size: 70px;
+    font-family: nick;
+    display: block;
+    padding-left: 450px ;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    line-height: 1.4;
+
+    background-image: linear-gradient(to top, transparent 50%, #000000 50%);
+
+    background-size: 100% 200%;
+    background-position: 0 0;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-color: #ffffff;
+    
+    transition: transform 0.3s ease, background-position 0.4s ease-out;
+
+   
+    
+}
+
+
+    .link-btn:hover {
+        transform: scale(1.05);
+        background-position: -100% 100%; 
+    
+    }
+
+
+

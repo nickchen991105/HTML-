@@ -1,0 +1,49 @@
+.img {
+    margin-top: -150px;position: relative;
+   z-index: -1;
+    height:300;
+     width:100%;
+     overflow: hidden;border-radius: 0 0 20px 20px;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(31,31,31.0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(31,31,31,1) 70%, rgba(0,0,0,0) 100%);
+}
+
+
+.div-text {
+    color: aliceblue;
+      text-align: center;
+      font-size: 25px;
+      font-family: nick
+}
+
+
+.div-a {
+    display: inline-block;
+      background-color: white;
+       color: black;
+        text-decoration: none;
+        padding: 15px 35px;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 30px;
+        
+        transition: transform 0.3s ease;
+}
+
+    .div-a:hover {
+        transform: scale(1.1);
+    }
+
+
+.video{
+    width:"560";
+     height:"315";
+
+     transition: transform 0.3s ease;
+}
+
+
+    .video:hover {
+        transform: scale(1.04);
+    }
