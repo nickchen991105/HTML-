@@ -2,7 +2,9 @@
 我會邊學邊寫，有任何bug或須改善部分可告知我👍
 
 Discord:https://discord.com/invite/nSt6zruSHN
+
 YouTube:https://www.youtube.com/@nickchen1105
+
 Instargam:https://www.instagram.com/nickchen1105/
 ____________________________________________________
 
