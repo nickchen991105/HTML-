@@ -23,7 +23,7 @@
         transform: scale(1.3);
     }
 
-img {
+.img-shadow {
     height: 350px;
     border-radius: 20px;
 }
